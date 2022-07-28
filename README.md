@@ -5,20 +5,54 @@ Todo application web simple build with Laravel
 - [Laravel](https://laravel.com/)
 - [Bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/#css)
 
-## Learning Laravel
+## Run Locally
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+**Step 1:**
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Clone the project
+```bash
+  git clone https://github.com/rakaiskandar/rubabox.git
+```
+**Step 2:**
 
-## Code of Conduct
+Go to the project directory
+```bash
+  cd my-project
+```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+**Step 3:**
 
-## Security Vulnerabilities
+Install dependencies
+```bash
+  composer dump-autoload
+```
+or 
+```bash
+  composer update
+```
+**Step 4:**
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Copy .env.example for get .env file
+```bash
+  cp .env.example .env
+```
+**Step 5**
 
-## License
+Generate key app
+```bash
+  php artisan key:generate
+```
+**Step 6:**
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Run or start XAMPP 
+
+**Step 7:**
+
+Start the server
+```bash
+  php artisan serve
+```
+or if you want run locally but can access in other device
+```bash
+  php artisan serve --host 0.0.0.0
+```
