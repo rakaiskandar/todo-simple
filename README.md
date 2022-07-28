@@ -11,7 +11,7 @@ Todo application web simple build with Laravel
 
 Clone the project
 ```bash
-  git clone https://github.com/rakaiskandar/rubabox.git
+  git clone https://github.com/rakaiskandar/todo-simple.git
 ```
 **Step 2:**
 
